@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>표 태그와 스타일 속성</title>
+    <style>
+       table, td{
+           /* border-width: 1px;
+           border-style: solid;
+           border-color: #0000ff; */
+           border: 1px solid #0000ff;    
+           border-collapse: collapse;      
+           /* collapse 기본은 seperate */ 
+       } 
+       /* 콤마 사용-경계와 안쪽 모두 스타일 적용 */
+       td{
+           padding: 10px;
+       }   
+       /* 별도 스타일 적용을 위해 td로 별도 적용 */    
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <td>1행 1열</td>
+            <td>1행 2열</td>
+            <td>1행 3열</td>
+        </tr>
+        <tr>
+            <td>2행 1열</td>
+            <td>2행 2열</td>
+            <td>2행 3열</td>
+        </tr>
+    </table>
+</body>
+</html>
