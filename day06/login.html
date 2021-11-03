@@ -9,13 +9,13 @@
 <body>
     <h2>로그인</h2>
     <form action="{% url 'common:login' %}" method="post">
-    <!-- /* "{''}" 파이썬-->
+    <!-- /* "{''}" 파이썬의 처리페이지-->
     <!-- /* 보안이 필요한 내용(ID, PW)은 post(필수 기재)로 전송*/ -->
         <p>
             <label for="uid">아이디</label>
             <input type="text" name="id" id="uid"> 
             <!-- /*id를 통해 서버프로그램(name)은 id라는 값으로 
-                   파이썬은 uid라는 값으로 처리함을 의미*/ -->
+                   서버페이지(파이썬)즉, action="{}"은 uid라는 값으로 처리함을 의미*/ -->
         </p>
         <p>
             <label for="pwd">비밀번호</label>

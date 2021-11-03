@@ -1,0 +1,24 @@
+#container{
+    width: 600px;
+    margin: 0 auto;
+}
+ul{list-style: none;}
+ul li{margin: 15px;}
+ul li label{
+    width: 100px;
+    /* 크기를 줘야 객체가 되어 정렬을 할 수 있음 */
+    float: left;
+}
+.button{margin-top: 10px; text-align: center;}
+.button input[type="submit"], [type="reset"]{
+    width: 150px;
+    height: 40px;
+    margin: 5px;
+    font-size: 1em;
+}
+/* 속성선택자[type]가 여기선 별도로 구분할 필요가 없어 생략가능*/
+.button input:hover{
+    background-color: lightcoral;
+    color: lightcyan;
+    border-color: lightcyan;
+}

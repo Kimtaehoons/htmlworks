@@ -1,0 +1,15 @@
+*{
+    margin: 0; padding: 0px;
+    box-sizing: border-box;
+    /* 기본값인 content-box이면 상자 크기와 사진 크기가 달라 사진이 꽉차게 들어오지 않는다
+       그럴 때, 패딩 포함한 크기로 상자 크기 자동 조절을 통해 사진이 꽉차게 들어온다 */
+}
+#wrap{
+    width: 250px;
+    height: 340px;   
+    margin: 0px auto;
+    padding: 20px 30px;
+    background: url('../images/notice.jpg') no-repeat;
+}
+ul{list-style: none;}
+ul li{margin: 20px;}

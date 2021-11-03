@@ -28,16 +28,8 @@
             <label>
                 <input type="radio" name="subject" value="writing">작문
             </label>
-            <!-- label은 글자만 눌러도 선택이 되게끔하기 위함, value를 달리해야 서버에서 구분이 가능 -->
-            <!-- <label for="subject">
-                 <input type="radio" name="subject" id="subject" value="speaking">회화
-                </label>
-                <label for="subject">
-                <input type="radio" name="subject" id="subject" value="grammer">문법
-                </label>
-                <label for="subject">
-                <input type="radio" name="subject" id="subject" value="writing">작문
-                </label> -->
+            <!-- name을 같게 해야 1과목만 선택이 가능하고, value를 달리해야 서버에서 구분이 가능 -->
+            <!-- label태그 안에 글자를 넣어 글자만 눌러도 선택이 되게끔하기 위함(터치환경이 좋지 않을 경우 보완) -->
         </fieldset>
         <fieldset>
             <legend>메일링</legend>
@@ -53,6 +45,7 @@
             </label>
         </fieldset>
         <input type="submit" value="전송">
+        <!-- submit을 만들어야 서버로 전송 가능함 -->
     </form>
 </body>
 </html>

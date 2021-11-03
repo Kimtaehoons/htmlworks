@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>검색 폼 만들기</title>
+</head>
+<body>
+    <form action="search.php" method="get">
+    <!-- php, jsp, asp - 서버 프로그램 -->
+    <!-- get방식은 생략가능 -->
+        <input type="hidden" name="username" value="steve">
+        <!-- hidden은 서버한테 페이지 input에 입력된 내용과는 관련없이 username과 steve를 강제로 넘겨버림 -->
+        <input type="text" name="kw">
+        <input type="submit" value="검색">
+    <!-- submit은 서버 프로그램(전송페이지)으로 전송함을 의미 -->    
+    </form>
+</body>
+</html>
