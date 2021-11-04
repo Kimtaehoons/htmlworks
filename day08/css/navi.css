@@ -1,0 +1,16 @@
+*{margin: 0 auto;}
+#container{
+    width: 1000px;
+    margin: 0 auto;
+}
+nav{
+    height: 100px;
+    background-color: cadetblue;
+}
+nav ul{list-style: none; text-align: right; margin-right: 100px; padding: 20px;}
+        /* padding 20px를 줘야 가운데로 작성이 된다
+           이뉴는 위의 nav의(상자역할) height 100px이 디자인을 하면서 여백이 깨져
+           860px이 된 것을 padding으로 20px씩 더 줘서 1000px만들어준 것  */
+nav ul li{display: inline-block; margin: 20px;}
+nav ul li a{text-decoration: none; color: #000;}
+section{margin: 20px;}

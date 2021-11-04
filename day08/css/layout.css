@@ -1,0 +1,37 @@
+*{margin: 0 auto; padding: 0;}
+#container{
+    width: 1000px;
+    margin: 0 auto;
+}
+#header{
+    height: 100px;
+    background-color: beige;
+    padding: 10px;
+}
+#left-aside{
+    width: 200px;
+    height: 600px;
+    background-color: cadetblue;
+    padding: 10px;
+    float: left;
+}
+#contents{
+    width: 540px;
+    height: 600px;
+    background-color: rgb(30, 22, 104);
+    padding: 10px;
+    float: left;
+}
+#right-aside{
+    width: 200px;
+    height: 600px;
+    background-color: rgb(160, 159, 95);
+    padding: 10px;
+    float: right;
+}
+#footer{
+    height: 100px;
+    background-color: rgb(160, 121, 95);
+    padding: 10px;
+    clear: both;
+}
