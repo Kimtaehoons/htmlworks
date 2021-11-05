@@ -1,0 +1,16 @@
+.container{width: 960px; margin: 0 auto;}
+.content{
+    width: 400px;
+    margin: 0 auto;
+    border: 1px solid #333;
+    border-radius: 5px;
+    padding: 20px;
+}
+.content :first-child{color: blue;}
+/* 첫 번째 자식 요소 */
+.content :nth-child(3){background-color: #ff0;}
+/* 전체 자식 요소 중 세 번째 요소(본문 내용1, <p>구조, <p>요소 순) */
+.content p:nth-of-type(3){background-color: aquamarine;}
+/* p태그 중 세 번째 요소 */
+.content :last-child{color: darkmagenta;}
+/* 마지막 자식 요소 */

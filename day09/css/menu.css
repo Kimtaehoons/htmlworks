@@ -1,0 +1,16 @@
+*{margin: 0px; padding: 0px;}
+#container{width: 960px; margin: 0px auto;}
+nav{height: 80px;}
+nav ul{
+    list-style: none; border-bottom: 2px solid #ccc; 
+    padding: 20px; text-align: center;
+}
+/* ul에 padding 20px을 넣어준 이유는 nav높이가 80px이므로 ul높이는 41이므로
+    padding 20px를 주면 ul전체가 nav가운데로 간다 */
+nav ul li{display: inline-block; margin: 10px 20px;}
+nav a:link, a:visited{text-decoration: none; padding: 10px; color: black}
+/* 방문 안 했을 떄, 했을 때 */
+nav a:hover, a:focus{background-color: black; color: rgb(65, 177, 43);}
+/* 마우스 갖다댔을 때, 키보드 tab을 눌렀을 때 */
+nav a:active{background-color: rgb(221, 26, 26); color: blanchedalmond;}
+/* 클릭했을 때 */
