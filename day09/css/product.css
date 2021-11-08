@@ -4,10 +4,11 @@ h1{text-align: center;}
 .prod-list{list-style: none; margin: 30px 0; }
 .prod-list li{display: inline-block; position: relative; 
     overflow: hidden; margin: 5px 10px;}
-.prod-list li:nth-of-type(1){padding-left: 10px;}
-.prod-list img{float: left;}   /* 약간의 차이를 없앰 */
+.prod-list li:nth-of-type(1){padding-left: 10px;} /* 그림의 왼쪽부분의 여백이 맞지 않아 전체 그림이 아닌 첫 번째 그림에만 여백을 줌 */
+.prod-list img{float: left;}   /* 그림 아래 설명 단락이 올라가면서 생긴 약간 남는 부분 삭제 방법(position에 absolute로 돼있어 문제 없음 */
 .prod-list .caption{width: 300px; height: 200px; background-color: rgba(0, 0, 0, 0.6); 
     position: absolute; top:200px; transition: transform 0.6s;}
+/* 전체 구조는 그림(기준)에 글자가 맞춰서 따라가는 구조 */
 .prod-list .caption h2{padding: 20px 0 10px 0; }
 .prod-list .caption h2, p{color: #fff; text-align: center;
      line-height: 2em;}
