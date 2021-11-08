@@ -19,10 +19,12 @@
                 지속시간 -2초, 1초 */
             /* transition: width, height, 2s, 1s; 
                 콤마(,)로 구분*/
-            /* transition: all 2s; 
-               모든 속성에 동일한 시간 설정*/
-            transition: width, height, transform, 1s, 2s, 1s;
+            transition: all 2s ease-in-out; 
+               /* all - 모든 속성에 동일한 시간 설정, ease-in - 천천히 시작
+                    ease-out - 천천히 끝남, ease-in-out - 천천히 시작하고 천천히 끝남 */
         }
+            /* transition: width, height, transform, 1s, 2s, 1s; */
+        
         #tr1:hover{
             width: 200px;
             height: 150px;
